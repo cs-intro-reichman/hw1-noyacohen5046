@@ -13,7 +13,7 @@ public class TimeFormat {
 		
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         if (hours<=12) {
-		System.err.print(hours + ":");
+		System.out.print(hours + ":");
 		}
 		else{
 		System.out.print(hours - 12 + ":");	
